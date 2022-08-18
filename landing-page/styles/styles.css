@@ -1,0 +1,100 @@
+/* GENERAL STYLE */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
+li {
+    list-style: none;
+}
+
+.flex_container {
+    display: flex;
+    /* padding: 10px; */
+}
+
+main {
+    padding: 200px;
+    /* border: 3px solid purple; */
+}
+
+/* STYLES FROM HEADER AND FOOTER*/
+
+header, footer {
+    padding: 30px 200px 100px;
+}
+
+footer {
+    text-align:center;
+}
+
+.main_bgcolor {
+    background-color: #1f2937;
+}
+
+.main_font {
+    color: #f9faf8;
+    font-weight:bolder;
+    font-size: 48px;
+}
+
+.secondary_font, .inner_menu a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+/* NAV STYLE */
+
+.header_logo_text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main_bgcolor a:link {
+    text-decoration: none;
+}
+
+.inner_menu {
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+
+.nav {
+    padding-bottom: 100px;
+}
+
+/* HEADER STYLE */
+
+.header_container {
+    flex-grow: 0;
+    max-width: 650px;
+    padding-right: 150px;
+    /* border: solid 5px purple; */
+}
+.header_container p {
+    margin-bottom: 10px;
+}
+.img_container {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #6D747D;
+    padding: auto;
+}
+
+
+/* BUTTONS STYLE */
+
+.button {
+    background-color: #3882f6;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10%;
+    font-weight: bolder;
+}
