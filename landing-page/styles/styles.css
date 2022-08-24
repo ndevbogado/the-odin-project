@@ -16,10 +16,15 @@ li {
     /* padding: 10px; */
 }
 
+.general_width {
+    max-width: 1000px;
+    margin: auto;
+}
+/* 
 main {
     padding: 200px;
-    /* border: 3px solid purple; */
-}
+    border: 3px solid purple;
+}  */
 
 /* STYLES FROM HEADER AND FOOTER*/
 
@@ -97,4 +102,80 @@ footer {
     padding: 5px 20px;
     border-radius: 10%;
     font-weight: bolder;
+}
+
+/* MAIN CONTENT STYLE */
+
+main h2 {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.main_container {
+    justify-content: center;
+    /* border: solid 2px purple; */
+}
+
+.empty_container {
+    max-width: 52px;
+    display: flex;
+    padding: 84px;
+    gap: 10px;
+    border: solid 2px #3882f6;
+    border-radius: 10%;
+}
+
+.flex_container .flex_container{
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.main_container .flex_container {
+     max-width: 175px;
+     text-align: center;
+     gap: 10px;
+     /* border: solid 2px green; */
+}
+
+/* QUOTE STYLE */
+
+.quote_body {
+    background-color: #e5e7eb;    
+    margin: 100px auto;
+    padding: 100px;
+    flex-direction: column;
+}
+
+.quote_txt{
+    color: #1f2937;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote_author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+/* SIGN UP STYLE */
+
+.sign_up {
+    gap: 50px;
+    background-color: #3882f6;
+    padding: 30px 100px;
+    margin-bottom: 100px;
+    border-radius: 1%;
+    
+}
+
+.sign_up .button {
+    border: solid 3px #fff;
+    justify-content: flex-end;
+}
+
+.sign_up p, .sign_up h3 {
+    font-size: 18px;
 }
